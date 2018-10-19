@@ -21,10 +21,10 @@ tweets_downloader <- function(tag, n, lang='en', retryonratelimit = TRUE){
   
   twitter_token <- create_token(
     app = 'Murali - Extracting Tweets',
-    consumer_key <- "glD6ScAGhciTuy9u5Szz9w2Z6",
-    consumer_secret <- "omaeCCtA59KcEexnzvl9nHw3tEKvpYqKTLfsWPSZSL35DYFiLE",
-    access_token <- "372777040-M2RWaNZtny7CrD54IxTdsd6mYMAhiplpBVdy2rXE",
-    access_secret <- "uramRxk6C6rt1xlgywe6ccIjWF3mpdYCLeya4N8zmVLC2",
+    consumer_key <- consumer_key,
+    consumer_secret <- consumer_secret,
+    access_token <- access_token,
+    access_secret <- access_secret,
     set_renv = F
   )
   
